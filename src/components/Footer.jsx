@@ -6,7 +6,7 @@ import { FaInstagram } from 'react-icons/fa6';
 const Footer = () => {
   return (
     <div className='bg-slate-100'>
-      <div className='max-w-screen-xl mx-auto py-12 px-6 md:px-10 lg:px-0 flex flex-col md:flex-row gap-6 md:gap-12 lg:gap-20'>
+      <div className='max-w-screen-xl mx-auto py-12 px-6 md:px-10 lg:px-0 flex flex-col md:flex-row lg:items-center gap-6 md:gap-12 lg:gap-20'>
         <div className='md:w-80 lg:w-96'>
             <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                 <img
@@ -26,18 +26,18 @@ const Footer = () => {
             </div>
         </div>
         <div>
-            <h2 className='font-semibold text-sm mb-5'>Our Company</h2>
-            <p className='text-sm text-gray-500 mb-3 hover:text-[#f34d3f]'>About</p>
-            <p className='text-sm text-gray-500 mb-3 hover:text-[#f34d3f]'>Contact</p>
-            <p className='text-sm text-gray-500 mb-3 hover:text-[#f34d3f]'>Blog</p>
-            <p className='text-sm text-gray-500 mb-3 hover:text-[#f34d3f]'>FAQ</p>
+            <h2 className='font-semibold text-sm mb-6'>Our Company</h2>
+            <p className='text-sm text-gray-500 mb-4 hover:text-[#f34d3f]'>About</p>
+            <p className='text-sm text-gray-500 mb-4 hover:text-[#f34d3f]'>Contact</p>
+            <p className='text-sm text-gray-500 mb-4 hover:text-[#f34d3f]'>Blog</p>
+            <p className='text-sm text-gray-500 mb-4 hover:text-[#f34d3f]'>FAQ</p>
         </div>
         <div>
-            <h2 className='font-semibold text-sm mb-5'>Quick Links</h2>
-            <p className='text-sm text-gray-500 mb-3 hover:text-[#f34d3f]'>Privacy Policy</p>
-            <p className='text-sm text-gray-500 mb-3 hover:text-[#f34d3f]'>Terms & Conditions</p>
-            <p className='text-sm text-gray-500 mb-3 hover:text-[#f34d3f]'>Return Policy</p>
-            <p className='text-sm text-gray-500 mb-3 hover:text-[#f34d3f]'>Ethical Policy</p>
+            <h2 className='font-semibold text-sm mb-6'>Quick Links</h2>
+            <p className='text-sm text-gray-500 mb-4 hover:text-[#f34d3f]'>Privacy Policy</p>
+            <p className='text-sm text-gray-500 mb-4 hover:text-[#f34d3f]'>Terms & Conditions</p>
+            <p className='text-sm text-gray-500 mb-4 hover:text-[#f34d3f]'>Return Policy</p>
+            <p className='text-sm text-gray-500 mb-4 hover:text-[#f34d3f]'>Ethical Policy</p>
         </div>
       </div>
       <div className='max-w-screen-xl px-6 md:px-10 lg:px-0 mx-auto flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0 pt-8 pb-12 text-sm text-gray-700 font-medium'>
