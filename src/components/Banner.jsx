@@ -14,15 +14,15 @@ const Banner = () => {
                     <span className='text-yellow-400'><FaStar /></span> 
                     <p>Rated <span className='text-black font-bold text-lg'>4.7/5</span> from over 2000+ reviews</p>
                 </div>
-                <div className='flex gap-2 items-center bg-gray-100 w-fit px-3 py-2 rounded-lg font-semibold mb-3'>
+                <div className='flex gap-2 items-center bg-slate-100 w-fit px-3 py-2 rounded-lg font-semibold mb-3'>
                     <i className='text-[#ea4b3d]'><GiCheckMark /></i>
                     <p>Accounts Available 24/7</p>
                 </div>
-                <div className='flex gap-2 items-center bg-gray-100 w-fit px-3 py-2 rounded-lg font-semibold mb-3'>
+                <div className='flex gap-2 items-center bg-slate-100 w-fit px-3 py-2 rounded-lg font-semibold mb-3'>
                     <i className='text-[#ea4b3d]'><GiCheckMark /></i>
                     <p>High Quality & Aged Accounts</p>
                 </div>
-                <div className='flex gap-2 items-center bg-gray-100 w-fit px-3 py-2 rounded-lg font-semibold mb-3'>
+                <div className='flex gap-2 items-center bg-slate-100 w-fit px-3 py-2 rounded-lg font-semibold mb-3'>
                     <i className='text-[#ea4b3d]'><GiCheckMark /></i>
                     <p>Multiple Account Options</p>
                 </div>
