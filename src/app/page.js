@@ -2,6 +2,7 @@ import Banner from "@/components/Banner";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Stepper from "@/components/Stepper";
+import Success from "@/components/Success";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar/>
       <Banner/>
       <Stepper/>
+      <Success/>
       <Footer/>
     </div>
   );
