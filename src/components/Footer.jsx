@@ -6,7 +6,7 @@ import { FaInstagram } from 'react-icons/fa6';
 const Footer = () => {
   return (
     <div className='bg-slate-100'>
-      <div className='max-w-screen-xl mx-auto py-12 px-6 md:px-10 lg:px-0 flex flex-col md:flex-row lg:items-center gap-6 md:gap-12 lg:gap-20'>
+      <div className='max-w-screen-xl mx-auto py-12 px-6 md:px-10 flex flex-col md:flex-row lg:items-center gap-6 md:gap-12 lg:gap-20'>
         <div className='md:w-80 lg:w-96'>
             <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                 <img
