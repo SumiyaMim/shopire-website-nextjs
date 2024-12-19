@@ -9,9 +9,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-6 md:px-10 py-6">
-        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+    <nav className="bg-white fixed top-0 left-0 w-full z-50 shadow-md">
+      <div className="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between px-6 md:px-10 py-6">
+              <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="images/icon.png"
             className="h-8"
