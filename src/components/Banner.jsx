@@ -4,7 +4,7 @@ import { GiCheckMark } from "react-icons/gi";
 
 const Banner = () => {
   return (
-    <div className='max-w-screen-xl mx-auto px-6 md:px-10 py-10'>
+    <div className='max-w-screen-xl mx-auto px-6 md:px-10 pt-36 pb-16'>
       <div className='flex flex-col md:flex-row md:items-center gap-8 lg:gap-0'>
         <div className='md:w-1/2 lg:w-3/5'> 
             <div className='lg:w-4/5'>
