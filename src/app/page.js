@@ -1,3 +1,4 @@
+import Account from "@/components/Account";
 import Banner from "@/components/Banner";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -11,6 +12,7 @@ export default function Home() {
       <Banner/>
       <Stepper/>
       <Success/>
+      <Account/>
       <Footer/>
     </div>
   );
