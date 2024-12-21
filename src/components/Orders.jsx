@@ -11,7 +11,7 @@ const Orders = () => {
             <div className='bg-[#ea4b3d] w-fit p-2.5 rounded-full'>
                 <img src="images/success.png" alt="icon" className='w-7' />
             </div>
-            <h3 className='text-2xl font-semibold'>Every day we successfully fulfill 260+ orders and continue to improve.</h3>
+            <h3 className='text-xl md:text-2xl font-semibold'>Every day we successfully fulfill 260+ orders and continue to improve.</h3>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10' data-aos="fade-up">
             <div className='flex flex-col items-center'>
