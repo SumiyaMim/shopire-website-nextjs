@@ -13,7 +13,7 @@ const Orders = () => {
             </div>
             <h3 className='text-2xl font-semibold'>Every day we successfully fulfill 260+ orders and continue to improve.</h3>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10' data-aos="fade-up">
             <div className='flex flex-col items-center'>
                 <RiUserCommunityLine className='text-5xl mb-3'/>
                 <h4 className='mb-1'>2873 +</h4>
